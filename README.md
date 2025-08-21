@@ -1,14 +1,15 @@
 # 概要
 Pygletでキーボード入力の制御を簡単にするモジュール
+Keyboadr_ModuleディレクトリにあるKeyboard_Module.pyがモジュール本体
 
 # 前提環境
-pyglet
+pyglet\
 keyboard
 
 # 使い方
 先頭でインポート
 ```
-import Keyboard_Module
+from 【場所】 import Keyboard_Module
 ```
 \
 pyglet.window.Windowの直後に初期化
