@@ -1,5 +1,5 @@
 # 概要
-Pygletでキーボード入力の制御を簡単にするモジュール
+Pygletでキーボード入力の制御を簡単にするモジュール\
 Keyboadr_ModuleディレクトリにあるKeyboard_Module.pyがモジュール本体
 
 # 前提環境
