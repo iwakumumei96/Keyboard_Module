@@ -18,9 +18,11 @@ window = pyglet.window.Window(【縦】, 【横】)
 keys = Keyboard_Module.Keyboard_Module(window, 【キーコードのリスト】)
 ```
 \
+キーコードは文字列のリストで渡す\
+pygletとkeyboardでキーコードが違う場合、この順のリストを含めて渡す\
 キーコードのリストの例
 ```
-["Q", "W", "E", "R", "T", "Y", "ENTER"]
+["Q", "W", "E", "R", "T", "Y", ["LCTRL", "left ctrl"]]
 ```
 \
 pygletのupdate関数の先頭でUpdate関数を実行

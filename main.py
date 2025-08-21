@@ -4,7 +4,7 @@ from Keyboard_Module import Keyboard_Module as Key
 
 def main():
     window = pyglet.window.Window(800, 500)
-    keys = Key.Keyboard_Module(window, ["Q", "W", "E", "R", "T", "Y", "ENTER"])
+    keys = Key.Keyboard_Module(window, ["Q", "W", "E", "R", "T", "Y", ["LCTRL", "left ctrl"]])
     
     
     
@@ -13,7 +13,7 @@ def main():
         labels.append([])
         for ih in range(0, keys.codes_len):
             if iv == 0:
-                text = keys.keycodes[ih]
+                text = keys.active_codes[ih]
             else:
                 text = "test"
             labels[iv].append(pyglet.text.Label(
